@@ -1,0 +1,35 @@
+{
+  "name": "Football_Crawler",
+  "version": "1.0.0",
+  "description": "Project Football",
+  "main": "app.js",
+  "author": {
+    "name": "Nguyen Duy Tuan",
+    "email": "tuannd92@outlook.com"
+  },
+  "engines": {
+    "node": "4.2.1",
+    "npm": "2.14.7"
+  },
+  "scripts": {
+    "start": "node server_websocket.js"
+  },
+  "license": "BSD-3-Clause",
+  "contributors": [
+    {
+      "name": "Nguyen Duy Tuan",
+      "email": "tuannd92@outlook.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babman92/Ai-La-Trieu-Phu-Server/"
+  },
+  "dependencies": {
+    "cheerio": "0.19.0",
+    "mysql": "^2.10.0",
+    "request": "2.67.0"
+  },
+  "subdomain": "football_crawler",
+  "analyze": "true"
+}
