@@ -31,7 +31,7 @@ Connection.prototype.initConnectionToDB = function () {
 }
 
 Connection.prototype.readConfig = function () {
-    var config = fs.readFileSync('./dbconfig.json').toString();
+    var config = fs.readFileSync('../dbconfig.json').toString();
     return config;
 }
 
@@ -67,7 +67,7 @@ Connection.prototype.excuteQuery = function (query, finish) {
 }
 
 Connection.prototype.excuteUpdate = function (query, data, finish) {
-    this.pool.getConnection(function (err, connection) {
+    this.pool.getConnection(function (err, connection) {        
         if (err) {
             if (connection != undefined)
                 connection.release();

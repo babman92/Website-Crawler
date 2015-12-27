@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Website Crawler", "Website Crawler.njsproj", "{DC9390F9-B22B-451F-B008-0AE022D702DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC9390F9-B22B-451F-B008-0AE022D702DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9390F9-B22B-451F-B008-0AE022D702DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC9390F9-B22B-451F-B008-0AE022D702DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC9390F9-B22B-451F-B008-0AE022D702DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

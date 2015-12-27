@@ -12,7 +12,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>dc9390f9-b22b-451f-b008-0ae022d702da</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>test.js</StartupFile>
+    <StartupFile>vnexpress\app.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -751,8 +751,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="connection.js" />
-    <Compile Include="hacker_news" />
-    <Compile Include="hacker_news.js" />
     <Compile Include="node_modules\cheerio\index.js" />
     <Compile Include="node_modules\cheerio\lib\api\attributes.js" />
     <Compile Include="node_modules\cheerio\lib\api\css.js" />
@@ -1679,7 +1677,6 @@
     <Compile Include="node_modules\request\node_modules\tunnel-agent\index.js" />
     <Compile Include="node_modules\request\node_modules\tunnel-agent\LICENSE" />
     <Compile Include="node_modules\request\request.js" />
-    <Compile Include="test.js" />
     <Compile Include="vnexpress\app.js" />
     <Compile Include="vnexpress\getdetail.js" />
   </ItemGroup>
